@@ -1,0 +1,312 @@
+html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background:#EE0000;
+		line-height: 1.75em;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 12pt;
+		font-weight: 300;
+		color: black;
+		
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	p
+	{
+	}
+	
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	
+	a
+	{
+		color: #383326;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1000px;
+    }
+    .title
+	{
+		padding: 0em 0em;
+		margin-bottom: 3em;
+	}
+	
+	.title h2
+	{
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 2em;
+		color: #383326;
+    }
+    ul.contact
+	{
+		margin: 0;
+		padding: 2em 0em 0em 0em;
+		list-style: none;
+	}
+	
+	ul.contact li
+	{
+		display: inline-block;
+		padding: 0em 0.30em;
+		font-size: 1em;
+	}
+	
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.contact li a
+	{
+		color: #FFF;
+	}
+	
+	ul.contact li a:before
+	{
+		display: inline-block;
+		background: #3f3f3f;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	
+	ul.contact li a.icon-twitter:before { background: #2DAAE4; }
+	ul.contact li a.icon-facebook:before { background: #39599F; }
+	ul.contact li a.icon-dribbble:before { background: #C4376B;	}
+	ul.contact li a.icon-tumblr:before { background: #31516A; }
+    ul.contact li a.icon-rss:before { background: #F2600B; }
+    .button
+	{
+		display: inline-block;
+		padding: 1em 3em 1em 2em;
+		background: red;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #FFF;
+	}
+	
+	.button:before
+	{
+		display: inline-block;
+		background: #FFC31F;
+		margin-right: 1em;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #272925;
+    }
+    #header
+	{
+		position: relative;
+		padding: 3em 0em;
+    }
+    #logo
+	{
+		position: absolute;
+		top: 2em;
+		left: 0;
+	}
+	
+	#logo h1
+	{
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,0.9);
+    }
+    #menu
+	{
+		position: absolute;
+		top: 2em;
+		right: 0;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span
+	{
+		padding: 0.7em 1.5em;
+		text-decoration: none;
+		color: rgba(255,255,255,0.6);
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+		background: rgba(0,0,0,0.5);
+		border-radius: 20px;
+        color: rgba(255,255,255,0.8);
+    }
+    #page
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		background: #D7D4C3;
+    }
+    #copyright
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+	}
+	
+	#copyright p
+	{
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color:white;
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,0.6);
+	}
+
+
+	.box
+	{
+		background: #F0EFE9;
+		margin-bottom: 2em;
+	}
+	
+	.box .margin-btm
+	{
+		margin-bottom: 2em;
+	}
+	
+	.box .details
+	{
+		display: block;
+		padding: 1em 2em 1em 2em;
+    }
+        .block1{
+            width: 250px;
+            height: 280px;
+            background-color: rgb(255, 0, 0);
+            color: white;
+        }
+
+    .img1{
+        
+        width: 250px;
+        height: 180px;
+    }
+    .bt1{
+        background-color: red;
+        color: white;
+        width: 150px;
+        height: 45px;
+        margin-top: 26px;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        
+    }
+    .bt1:hover{
+        background-color: rgb(156, 4, 4);
+    }
+    #b1{
+        margin-left: 80px;
+    }
+   #b2{
+       margin-left: 380px;
+       margin-top: -280px;
+   }
+   #b3{
+       margin-top: -280px;
+       margin-left: 680px;
+   }
+   #b4{
+    margin-left: 80px;
+    margin-top: 80px;
+   }
+   #b5{
+    margin-left: 380px;
+    margin-top: -280px;
+   }
+   #b6{
+    margin-top: -280px;
+       margin-left: 680px;
+   }
+   #b7{
+    margin-left: 80px;
+    margin-top: 80px;
+   }
+   #b8{
+    margin-left: 380px;
+    margin-top: -280px;
+   }
+   #b9{
+    margin-top: -280px;
+       margin-left: 680px;
+   }
+   
+
+
+
+   #tex1{
+       margin-left: 5px;
+       margin-top: 5px;
+   }
